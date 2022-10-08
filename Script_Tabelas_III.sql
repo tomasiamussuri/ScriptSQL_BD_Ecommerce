@@ -1,0 +1,1 @@
+-- Script de criação de tableas: BANK, BANKACCOUNT, ASSIGNOR, PAYMENTTYPE, ADDRESS_TYPE, STATUS, CLIENT   

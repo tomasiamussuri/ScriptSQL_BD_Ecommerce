@@ -11,9 +11,15 @@ CREATE TABLE IF NOT EXISTS `ecommerce`.`Provider` (
   `Name` VARCHAR(45) NOT NULL,
   `Identification` VARCHAR(45) NOT NULL,
   `ProviderType` VARCHAR(1) NOT NULL,
-  `Address` VARCHAR(45) NOT NULL,
+  `Address` VARCHAR(300) NOT NULL,
   `Phone` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idProvider`))
+ENGINE = InnoDB;
+
+CREATE TABLE IF NOT EXISTS `ecommerce`.`Category` (
+  `idCategory` INT NOT NULL,
+  `Descrição` VARCHAR(45) NULL,
+  PRIMARY KEY (`idCategory`))
 ENGINE = InnoDB;
 
 CREATE TABLE IF NOT EXISTS `ecommerce`.`Product` (
