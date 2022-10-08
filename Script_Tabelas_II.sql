@@ -1,4 +1,4 @@
--- Script de criação de tableas: CATEGORY, PRODUCT, PROVIDER, INVENTORY, PRODUCT_HAS_INVENTORY, PROVIDER_HAS_PRODUCT, CLIENT   
+-- Script de criação de tableas: CATEGORY, PRODUCT, PROVIDER, INVENTORY, PRODUCT_HAS_INVENTORY, PROVIDER_HAS_PRODUCT
 
 INSERT INTO `ecommerce`.`category` (`idCategory`, `Descrição`)
 VALUES ('1', 'TV'),
